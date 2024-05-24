@@ -132,8 +132,7 @@ const foodList = [
 
 const vegan = foodList.filter(plate => plate.isVeggie)
 vegan.forEach(veganplate => {
-  console.log ('Hoy comemos', ${veganplate} )
-  
+  console.log ('Hoy comemos', veganplate )
 });
 
 /*Reduce*/
